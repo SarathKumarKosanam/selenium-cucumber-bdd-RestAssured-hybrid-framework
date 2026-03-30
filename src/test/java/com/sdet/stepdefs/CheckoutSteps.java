@@ -51,6 +51,8 @@ public class CheckoutSteps {
         );
     }
 
+// There should some changes in the code
+    
     @Then("I should see checkout error {string}")
     public void iShouldSeeCheckoutError(String expectedError) {
         Assert.assertTrue(
